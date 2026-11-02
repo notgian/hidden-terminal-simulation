@@ -1,4 +1,4 @@
-# hidden-terminal-simulation
+# Hidden Terminal Simulation Project
 
 **Working title:** A Comparative Performance Analysis of MAC-layer Hidden Terminal Mitigation Techniques in IEEE 802.11 Across Varying Payload Sizes
 
@@ -30,7 +30,8 @@ Python dependencies (numpy, pandas, matplotlib, ns3) are declared in
       `sudo usermod -aG docker $USER` (log out and back in).
 2. Clone the repository:
     ```bash
-    git clone <repository-url> hidden-terminal-simulation
+    # or clone with ssh if you want
+    git clone https://github.com/notgian/hidden-terminal-simulation hidden-terminal-simulation
     cd hidden-terminal-simulation
     ```
 3. Build the image and run the installation test
@@ -52,7 +53,8 @@ Python dependencies (numpy, pandas, matplotlib, ns3) are declared in
     - uv (any Linux): `curl -LsSf https://astral.sh/uv/install.sh | sh`
 2. Clone the repository and install dependencies:
     ```bash
-    git clone <repository-url> hidden-terminal-simulation
+    # or clone with ssh if you want
+    git clone https://github.com/notgian/hidden-terminal-simulation hidden-terminal-simulation
     cd hidden-terminal-simulation
     uv sync
     ```

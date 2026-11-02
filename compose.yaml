@@ -1,0 +1,6 @@
+services:
+    sim:
+        build: .
+        volumes:
+            - .:/app
+            - ./results:/app/results
